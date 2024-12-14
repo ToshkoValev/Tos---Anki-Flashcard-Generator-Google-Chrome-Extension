@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Anki Flashcard Creator Tos Edition",
+    "name": "Tos EditionAnki Flashcard Creator",
     "version": "1.0.0",
     "description": "Create Anki flashcards directly from web articles",
     "permissions": [
