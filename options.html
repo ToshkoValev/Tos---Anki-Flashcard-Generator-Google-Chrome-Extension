@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Anki Flashcard Creator - Settings</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Extension Settings</h1>
+    <div class="settings-section">
+      <form id="settings-form">
+        <div class="form-group">
+          <label for="openai-api-key">OpenAI API Key:</label>
+          <input type="password" id="openai-api-key" name="openai-api-key" required>
+          <small>Required for generating flashcards</small>
+        </div>
+        <button type="submit" id="save-settings">Save Settings</button>
+      </form>
+    </div>
+  </div>
+  <script src="options.js"></script>
+</body>
+</html>

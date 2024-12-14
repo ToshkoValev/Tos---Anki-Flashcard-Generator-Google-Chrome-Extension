@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Anki Flashcard Creator</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Calibri:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Anki Flashcard Creator</h1>
+    </header>
+    <div class="content-wrapper">
+      <div id="flashcard-list" class="scrollable-content"></div>
+    </div>
+    <div class="actions">
+      <div class="generate-group">
+        <button id="generate-btn">Generate Knowledge</button>
+        <select id="card-count" class="card-count-dropdown">
+          <option value="5">5 Cards</option>
+          <option value="10" selected>10 Cards</option>
+          <option value="15">15 Cards</option>
+          <option value="20">20 Cards</option>
+          <option value="25">25 Cards</option>
+          <option value="30">30 Cards</option>
+          <option value="35">35 Cards</option>
+          <option value="40">40 Cards</option>
+          <option value="45">45 Cards</option>
+          <option value="50">50 Cards</option>
+        </select>
+      </div>
+      <button id="export-btn">Export to Anki</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
